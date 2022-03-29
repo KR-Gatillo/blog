@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.05)50%, rgba(0,0,0,0.05)50%), url(fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1400px;
+    height: 75px;
+    margin: auto;
+    
+    
+}
+.icono{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    padding-left: 10px;
+    float: center;
+    padding-top: 10px;
+    color: orange;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;   
+    margin: auto;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;                    
+}
+ul li{
+    list-style: none;
+    margin-left: 52px;
+    margin-top: 27px;
+    font-size: 15px;  
+}
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange ;
+}
+.buscador{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.bcdr{
+   font-family: 'Times New Roman';
+    width: 150px;
+    height: 30px;
+    border: 1px solid orange;
+    margin-top:10px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+}
+.boton{
+    width: 80px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color:white;
+    font-size: 16px;
+    border-bottom-right-radius: 30px;
+}
+.boton:focus{
+    outline:none ;
+}
+.bcdr:focus{
+    outline: none;
+}
