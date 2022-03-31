@@ -118,17 +118,23 @@ ul li a:hover{
     margin-top: 9px;
     letter-spacing: 2px;
 }
+
 .contenido .cn{
+    color: orange;
     width: 160px;
     height: 40px;
-    background: orange;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     margin-left: 20px;
+    margin-top: 100px;
     border-radius: 50px;
     font-weight: bold;
     cursor: pointer;
     transition: .4s ease;
+}
+.contenido span{
+color : orange;
+font-size: 60px;
 }
 .contenido .cn a{
     text-decoration: none;
@@ -136,12 +142,9 @@ ul li a:hover{
     transition: .3s ease;
 }
 .cn:hover{
-    background-color: wheat ;
+    background-color: greenyellow ;
     }
-.contenido span{
-color : orange;
-font-size: 60px;
-}
+
 .forma{
     width: 250px;
     height: 380px;
@@ -156,9 +159,9 @@ font-size: 60px;
     width:220px;
     font-family: sans-serif;
     text-align: center;
-    color: orange;
+    color: black;
     font-size: 22px;
-    background-color: whitesmoke;
+    background-color: orange;
     margin: 2px;
     padding: 8px;
     border-radius: 10px;
@@ -175,6 +178,8 @@ font-size: 60px;
     letter-spacing: 1px;
     margin-top: 30px;
     font-family: sans-serif;
+    color: whitesmoke;
+    
 }
 .forma input:focus{
     outline: none;
