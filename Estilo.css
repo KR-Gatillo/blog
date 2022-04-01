@@ -28,7 +28,6 @@
     float: center;
     padding-top: 10px;
     color: orange;
-    margin-top: 0px
 }
 .menu{
     width: 600px;
@@ -68,7 +67,7 @@ ul li a:hover{
     width: 140px;
     height: 10px;
     border: 1px solid orange;
-    margin-top:25px;
+    margin-top:10px;
     color: black;
     border-right: none;
     font-size: 16px;
@@ -80,11 +79,11 @@ ul li a:hover{
     width: 100px;
     height: 32px;
     background: orange;
-    border: 2px solid black;
-    margin-top: 25px;
+    border: 2px solid orange;
+    margin-top: 10px;
     color:black;
     font-size: 16px;
-    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 0px;
     font-weight: bold;
     cursor: pointer;
     transition: .4s ease;
@@ -116,10 +115,8 @@ ul li a:hover{
     font-family: 'Times New Roman';
     font-size: 50px;
     padding-left: 20px;
-    margin-top: 80px;
+    margin-top: 9px;
     letter-spacing: 2px;
-    margin-right: 0px;
-    
 }
 
 .contenido .cn{
@@ -151,7 +148,6 @@ font-size: 60px;
 .forma{
     width: 250px;
     height: 380px;
-    background:linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50% ) ;
     position: absolute;
     top: -20px;
     left: 870px;
@@ -237,7 +233,7 @@ color: white;
 .icon ion-icon{
     color: white;
     font-size: 20px;
-    padding-left:10px ;
+    padding-left:14px ;
     padding-top: 5px;
     transition: 0.3s ease;
 }
