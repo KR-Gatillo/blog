@@ -1,2 +1,0 @@
-# canabis
-mi nuevo repositorio
